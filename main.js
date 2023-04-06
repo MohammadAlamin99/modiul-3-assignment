@@ -1,8 +1,8 @@
 function time(){
-    const myDate = new Date();
-    const hours = myDate.getHours();
-    const min = myDate.getMinutes();
-    const sec = myDate.getSeconds();
+    var myDate = new Date();
+    var hours = myDate.getHours();
+    var min = myDate.getMinutes();
+    var sec = myDate.getSeconds();
 
 
     if(hours== "12"){
